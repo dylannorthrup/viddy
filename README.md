@@ -1,5 +1,7 @@
 # Viddy
 
+This is a fork of the [original `viddy` repository](https://github.com/sachaos/viddy) before the author switched from golang to rust.
+
 <p align="center">
 <img src="images/logo.png" width="200" alt="viddy" title="viddy" />
 </p>
@@ -67,7 +69,7 @@ scoop install extras/viddy
 ### Linux
 
 ```shell
-wget -O viddy.tar.gz https://github.com/sachaos/viddy/releases/download/v0.4.0/viddy_Linux_x86_64.tar.gz && tar xvf viddy.tar.gz && mv viddy /usr/local/bin
+wget -O viddy.tar.gz https://github.com/dylannorthrup/viddy/releases/download/v0.4.0/viddy_Linux_x86_64.tar.gz && tar xvf viddy.tar.gz && mv viddy /usr/local/bin
 ```
 
 #### ArchLinux ( AUR )
@@ -96,12 +98,12 @@ asdf global viddy latest
 ### Go
 
 ```shell
-go install github.com/sachaos/viddy@latest
+go install github.com/dylannorthrup/viddy@latest
 ```
 
 ### Other
 
-Download from [release page](https://github.com/sachaos/viddy/releases).
+Download from [release page](https://github.com/dylannorthrup/viddy/releases).
 
 ## Keymaps
 
