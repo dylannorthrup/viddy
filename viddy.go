@@ -377,7 +377,7 @@ func (v *Viddy) renderSnapshot(id int64) error {
 	}
 
 	bw := v.bodyView.BatchWriter()
-	defer bw.Close()
+	defer func() { _ = bw.Close() }()
 
 	bw.Clear()
 
